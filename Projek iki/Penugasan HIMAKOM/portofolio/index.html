@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loader">
+            <div class="circle"></div>
+        </div>
+        <p>SABAR...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>ZI-O</span>
+            </a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#profil" class="nav-link">Profil</a></li>
+                <li><a href="#skill" class="nav-link">Skill</a></li>
+                <li><a href="#penugasan" class="nav-link">Penugasan</a></li>
+                <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Beranda Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Halo, Saya</p>
+                <h1 class="hero-name">Muhammad Rif'q Apriliansyah</h1>
+                <h2 class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    Mahasiswa Teknik Komputer Politeknik Negeri Bandung yang passionate dalam 
+                    dunia programming dan teknologi. Selalu antusias belajar 
+                    hal-hal baru dan mengembangkan keterampilan di bidang IT.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#profil" class="btn btn-primary">
+                        <i class="fas fa-user"></i> Lihat Profil
+                    </a>
+                    <a href="#kontak" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-container">
+                    <img src="kiki.jpeg" alt="Foto Profil">
+                    <div class="hero-img-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Diri Section -->
+    <section id="profil" class="profil section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Tentang Saya</span>
+                <h2 class="section-title">Profil Diri</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="profil-content">
+                <div class="profil-image">
+                    <div class="profil-img-wrapper">
+                        <img src="ikiki.JPG" alt="Foto Profil">
+                        <div class="profil-experience">
+                            <span class="exp-number">2</span>
+                            <span class="exp-text">Semester<br>Teknik Komputer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profil-info">
+                    <h3 class="profil-name">Muhammad Rif'q Apriliansyah</h3>
+                    <p class="profil-nim">NIM: 251511023</p>
+                    <div class="profil-details">
+                        <div class="detail-item">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <span class="detail-label">Universitas</span>
+                                <span class="detail-value">Politeknik Negeri Bandung</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="detail-label">Program Studi</span>
+                                <span class="detail-value">D3-Teknik Informatika</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <div>
+                                <span class="detail-label">Angkatan</span>
+                                <span class="detail-value">2025</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="detail-label">Alamat</span>
+                                <span class="detail-value">Jl. Gunung Batu KP Rancabali No. 39 RT 002/ RW 003 Kel. Pasirkaliki Kec. Cimahi Utara Kota Cimahi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="profil-bio">
+                        Saya adalah mahasiswa Teknik Komputer yang memiliki ketertarikan 
+                        mendalam pada bidang pemrograman, IOT Arduino. Saya senang mengeksplorasi teknologi baru dan selalu 
+                        bersemangat untuk mengembangkan kemampuan saya di dunia IT.
+                    </p>
+                    <div class="profil-social">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skill" class="skill section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kemampuan Saya</span>
+                <h2 class="section-title">Skill & Minat</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML & CSS</h3>
+                    <p>Mampu membuat struktur dan styling website yang responsif dan modern.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Memahami konsep dasar JS untuk membuat website interaktif.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                        <span>70%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Menguasai dasar-dasar Python untuk pemrograman dan data.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="75"></div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Arduino</h3>
+                    <p>Berpengalaman dalam membuat project embedded system.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Jaringan Komputer</h3>
+                    <p>Memahami konsep dasar jaringan dan konfigurasi router.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="65"></div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Video Editor</h3>
+                    <p>Mampu mengedit video menggunakan CapCut.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penugasan Section -->
+    <section id="penugasan" class="penugasan section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">PENUGASAN HIMAKOM</span>
+                <h2 class="section-title">TUGAS</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <!-- Penugasan 2 - TOR PDF/DOC -->
+            <div class="tugas-item">
+                <div class="tugas-header">
+                    <div class="tugas-number">02</div>
+                    <div class="tugas-info">
+                        <h3>Penugasan 2 - Dokumen</h3>
+                        <p>Tugas membuat  TERM OF REFERENCE (TOR) dalam format PDF/DOC</p>
+                    </div>
+                </div>
+                <div class="tugas-content">
+                    <div class="file-preview">
+                        <div class="file-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="file-details">
+                            <h4>TOR LKMM-TH 2026</h4>
+                            <p>File PDF</p>
+                        </div>
+                        <a href="TOR_LKMM_TH.pdf" class="btn-file" onclick="showFileModal('pdf')">
+                            <i class="fas fa-eye"></i> Lihat
+                        </a>
+                    </div>
+                    <div class="file-preview">
+                        <div class="file-icon doc">
+                            <i class="fas fa-file-word"></i>
+                        </div>
+                        <div class="file-details">
+                            <h4>Dokumen Tugas Rangkuman</h4>
+                            <p>File DOCX - 1.2 MB</p>
+                        </div>
+                        <a href="Format TOR Pergerakan .docx" class="btn-file" onclick="showFileModal('doc')">
+                            <i class="fas fa-eye"></i> Lihat
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Penugasan 3 - Infografik -->
+            <div class="tugas-item">
+                <div class="tugas-header">
+                    <div class="tugas-number">03</div>
+                    <div class="tugas-info">
+                        <h3>Penugasan 3 - Galeri Foto</h3>
+                        <p>Dokumentasi praktikum dan kegiatan kampus</p>
+                    </div>
+                </div>
+                <div class="tugas-content">
+                    <div class="photo-gallery">
+                        <div class="photo-item" onclick="openLightbox(this)">
+                            <img src="TSS.jpg" alt="Praktikum 1">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Penugasan 4 - Video -->
+            <div class="tugas-item">
+                <div class="tugas-header">
+                    <div class="tugas-number">04</div>
+                    <div class="tugas-info">
+                        <h3>Penugasan 4 - Video</h3>
+                        <p>Video penjelasan project dan tutorial pemrograman</p>
+                    </div>
+                </div>
+                <div class="tugas-content">
+                    <div class="video-grid">
+                        <div class="video-card">
+                            <div class="video-thumbnail" onclick="playVideo(this)">
+                                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=400&h=250&fit=crop" alt="Video 1">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h4>Tutorial Arduino Dasar</h4>
+                                <p><i class="fas fa-clock"></i> 15:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="portofolio section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Pengalaman Saya</span>
+                <h2 class="section-title">Riwayat Organisasi</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portofolio-grid">
+                <div class="portofolio-card">
+                    <div class="portofolio-image">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400&h=250&fit=crop" alt="Himpunan">
+                        <div class="portofolio-badge">2024 - Sekarang</div>
+                    </div>
+                    <div class="portofolio-content">
+                        <h3>Himpunan Mahasiswa Teknik Komputer</h3>
+                        <p class="portofolio-role">Anggota Divisi Teknologi</p>
+                        <p class="portofolio-desc">
+                            Berkontribusi dalam pengembangan website himpunan dan 
+                            membantu kegiatan teknis organisasi.
+                        </p>
+                        <div class="portofolio-tags">
+                            <span>Web Development</span>
+                            <span>Organisasi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portofolio-card">
+                    <div class="portofolio-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="UKM">
+                        <div class="portofolio-badge">2024 - Sekarang</div>
+                    </div>
+                    <div class="portofolio-content">
+                        <h3>UKM Robotika</h3>
+                        <p class="portofolio-role">Anggota Aktif</p>
+                        <p class="portofolio-desc">
+                            Mengikuti pelatihan robotika dan berpartisipasi dalam 
+                            kompetisi robotika tingkat kampus.
+                        </p>
+                        <div class="portofolio-tags">
+                            <span>Robotika</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portofolio-card">
+                    <div class="portofolio-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=250&fit=crop" alt="Study Club">
+                        <div class="portofolio-badge">2024 - Sekarang</div>
+                    </div>
+                    <div class="portofolio-content">
+                        <h3>Programming Study Club</h3>
+                        <p class="portofolio-role">Peserta</p>
+                        <p class="portofolio-desc">
+                            Mengikuti kegiatan belajar bersama tentang algoritma 
+                            dan pemrograman secara rutin.
+                        </p>
+                        <div class="portofolio-tags">
+                            <span>Programming</span>
+                            <span>Algoritma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Hubungi Saya</span>
+                <h2 class="section-title">Kontak</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="kontak-grid">
+                <div class="kontak-card">
+                    <div class="kontak-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>rcybergo@gmail.com</p>
+                    <a href="mailto:rcybergo@gmail.com" class="kontak-btn">Kirim Email</a>
+                </div>
+                <div class="kontak-card">
+                    <div class="kontak-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>085217192717</p>
+                    <a href="https://wa.me/6285217192717" class="kontak-btn">Chat WA</a>
+                </div>
+                <div class="kontak-card">
+                    <div class="kontak-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>@rq_2947</p>
+                    <a href="https://www.instagram.com/rq_2947?igsh=NnJveG40Z2RxdzJu" class="kontak-btn">Follow</a>
+                </div>
+               
+                <div class="kontak-card">
+                    <div class="kontak-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/muhammad-rifq</p>
+                    <a href="https://www.linkedin.com/in/muhammad-rif-q-apriliansyah-b956a8260/" class="kontak-btn">Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>MyPorto</span>
+                </div>
+                <p class="footer-text">
+                    Portofolio Pribadi - Muhammad Rif'q Apriliansyah
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ZI-O 2026. Dibuat untuk tugas portofolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <!-- File Modal -->
+    <div class="file-modal" id="fileModal">
+        <div class="file-modal-content">
+            <span class="file-modal-close" onclick="closeFileModal()">&times;</span>
+            <div class="file-modal-body" id="fileModalBody">
+                <!-- Content will be inserted by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+            <div class="video-container">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
